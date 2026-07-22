@@ -8,6 +8,7 @@
   --muted: #c9b8d1;
   --font-display: 'Cormorant Garamond', serif;
   --font-hand: 'Dancing Script', cursive;
+  --font-letter: 'Lora', serif;
   --font-body: 'Poppins', sans-serif;
   --font-hi: 'Noto Sans Devanagari', sans-serif;
 }
@@ -261,8 +262,9 @@ html,body{
   text-align:left;
 }
 .letter-text{
-  font-family: var(--font-hand);
-  font-size: 1.35rem;
+  font-family: var(--font-letter);
+  font-style: italic;
+  font-size: 1.15rem;
   line-height: 1.9;
   color: var(--cream);
   white-space: pre-wrap;
